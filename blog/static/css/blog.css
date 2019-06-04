@@ -28,9 +28,11 @@ body {
 
 .content {
     margin-left: 40px;
-    background-color: #cccccc;
+    background-color: #ECFAC5;
     opacity: 0.9;
-    position:
+    position:relative;
+    width: 800px;
+    top: 50px;
 }
 
 h1, h2, h3, h4 {
@@ -66,16 +68,11 @@ h1, h2, h3, h4 {
 }
 
 div.book-summary {
-  position: absolute;
-  top: 200px;
-  right: 30;
+  position: relative;
+  top: -900px;
+  left: 1800;
   width: 200px;
-  height: 100px;
   border: 300px solid #;
-  background-color: #cccccc;
-}
-
-.book-summary ul.summary {
-    background-color: #cccccc;
-    opacity: 0.9;
+  background-color: #ECFAC5;
+  opacity: 0.9;
 }
